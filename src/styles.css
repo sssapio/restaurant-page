@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #ffde73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 16px;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+body {
+  margin-top: 0;
+  font-family: "Yusei Magic";
+  margin-right: 0;
+  margin-left: 0;
+}
+h1,
+h2 {
+  font-family: "Potta One";
+  font-size: 50px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #ffc60b;
+  border: 10px solid #c16a08;
+  border-radius: 20px;
+}
+h2 {
+  font-size: 40px;
+}
+button {
+  border: 1px solid black;
+  border-bottom: none;
+  border-bottom-left-radius: none;
+  border-bottom-right-radius: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 16px;
+  padding: 10px 30px;
+  background-color: #ffde73;
+  font-family: "Yusei Magic";
+}
+.home,
+.menu {
+  background-color: #ffde73;
+  border-radius: 20px;
+  padding: 30px 20px;
+  margin-top: 50px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.descr,
+.location,
+.hours {
+  background-color: #ffc60b;
+  border: 20px solid #c16a08;
+  padding: 20px 40px;
+  width: 55%;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.descr-tag,
+.hours-tag,
+.loctn-tag {
+  font-weight: 900;
+}
+.hours-tag,
+.loctn-tag {
+  font-size: 25px;
+}
+li {
+  list-style: none;
+}
